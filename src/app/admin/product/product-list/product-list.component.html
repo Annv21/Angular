@@ -1,5 +1,4 @@
 <div class="container py-4">
-    <h2 class="mb-4 text-center">Product List</h2>
   
     <table class="table table-striped table-hover table-bordered shadow rounded">
       <thead class="table-dark">
@@ -8,6 +7,7 @@
           <th scope="col">Title</th>
           <th scope="col">Image</th>
           <th scope="col" class="text-end">Price</th>
+          <th scope="col" class="text-center">Category</th>
           <th scope="col" class="text-center">Action</th>
         </tr>
       </thead>
@@ -20,6 +20,7 @@
               <img [src]="product.image" alt="" class="img-thumbnail" style="width: 80px;">
             </td>
             <td class="text-end">{{ product.price | currency }}</td>
+            <td class="text-center">{{ getCategoryName(product.category) }}</td>
             <td class="text-center">
               <div class="btn-group btn-group-sm" role="group">
                 <a [routerLink]="['/product/edit', product.id]" class="btn btn-primary">

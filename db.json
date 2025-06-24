@@ -1,32 +1,29 @@
 {
   "products": [
     {
-      "title": "IPhone 11",
-      "image": "https://cdn.viettelstore.vn/Images/Product/ProductImage/872124681.jpeg",
+      "title": "IPhone 15",
+      "image": "https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/tile/Apple-iPhone-15-Pro-lineup-hero-230912.jpg.news_app_ed.jpg",
       "price": 20,
-      "isShow": true,
+      "category": "1",
+      "isShow": "",
       "id": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Iphone",
+      "quantity": 10
     },
     {
-      "title": "IPhone 11 Pro",
-      "image": "https://cdn.tgdd.vn/Products/Images/42/329143/iphone-16-pro-titan-trang.png",
-      "price": 25,
-      "isShow": "",
-      "id": 2
+      "id": "2",
+      "name": "Samsung",
+      "quantity": 15
     },
     {
-      "title": "IPhone 12",
-      "image": "https://totomobile.vn/wp-content/uploads/2023/10/iphone_14_pro_tim.jpg",
-      "price": 27,
-      "isShow": "",
-      "id": 3
-    },
-    {
-      "title": "IPhone 12 ProMax",
-      "image": "https://admin.hoanghamobile.com/Uploads/2023/12/19/vn-iphone-15-pro-natural-titanium-pdp-image-position-1a-natural-titanium-color-hhm.jpg",
-      "price": 30,
-      "isShow": "",
-      "id": 4
+      "id": "3",
+      "name": "Xiaomi",
+      "quantity": 20
     }
   ],
   "users": []

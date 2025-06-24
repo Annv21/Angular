@@ -10,5 +10,5 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'web208-angular-base';
+  title = 'angular-base';
 }
